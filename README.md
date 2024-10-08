@@ -1,7 +1,7 @@
 # Primera Evaluación II-2024
 
 ### Asignatura: Patrones de Software y Programación <br> Profesor: Daniel San Martín
-Nombre Estudiante: 
+Nombre Estudiante: Franco Alejandro Pineda Ibacache
 
 <hr>
 
@@ -95,4 +95,14 @@ Buena suerte!
 
 ## Respuestas
 
-(comienze a escribir aquí sus respuestas, indicando sección y número de pregunta)
+Parte 1
+
+Respuesta 1: Debería utilizarse el patron Factory Method, esto debido a que se necesita crear nuevos eventos recurrentemente para así luego administrar estos con los asistentes.El otro patrón que debería utilizarse es Observer, esto debido a que se les debe notificar a los asistentes cuando existan cambios y es justamente uno de los principales usos que tiene este patron.
+
+Respuesta 2: Estos patrones de diseño ayudan a respetar la cohesión, ya que existe una buena distribucion de responsabilidades. Tambien ocultamiento de la información, debido a que tanto el sistema de creación de nuevos objetos, así como el sistema para notificar a los clientes están hechos de tal manera que el cliente no deba acceder a estos datos y se puedan manejar de manera eficiente.
+
+Parte 2
+
+Respuesta 1: La mejor descripción de Template Method sería la alternativa 2. Ya que este patrón, al igual que muchos posee una clase madre inalterable mientras que puede dar la libertad a sus clases hijas de hacer modificacioines, porque a fin de cuentas aunque existan cambios, la clase madre funcionará de la misma manera. Un ejemplo podría ser una clase madre que sea el personaje de un videojuego, mientras que las clases hijas son vida, ataque basico, ataque especial. En muchos videojuegos se hacen cambios de poder en los personajes, se modifican atributos, efectos y daño de personajes, estos podrían modificarse sin necesidad de tener que cambiar la estructura de la clase madre por completo, porque modificarían sus pasos pero no el tipo de dato que retornan o modifican del codigo.
+
+Respuesta 2: Las clases A y B tienen acceso directo al database, esto vulnera el principio de ocultamiento de la información, por otro ambas clases están realizando tareas distintas dentro de ellas mismas, no hay una responsabilidad clara por cada uno y esto evita que exista cohesión.
